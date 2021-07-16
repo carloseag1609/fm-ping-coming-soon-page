@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/e57560a61d.js" crossorigin="anonymous"></script>
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <img class="logo" src="./images/logo.svg" alt="Logo">
+
+    <div class="main-texts">
+      <h2 class="title">We are launching <span class="text-bold">soon!</span></h2>
+      <p class="subtitle">Subscribe and get notified</p>
+    </div>
+
+    <form class="form" id="form">
+      <div class="form-control">
+        <input class="input" type="email" placeholder="Your email address..." id="email" autocomplete="email">
+        <p class="form-error-message hidden" id="error">Please provide a valid email address</p>
+      </div>
+      <button class="button button--rounded button--primary button--shadow">Notify Me</button>
+    </form>
+  </main>
+
+  <img class="banner" src="./images/illustration-dashboard.png" alt="Illustration dashboard">
+
+  <footer class="footer">
+    <nav class="contact-icons-list">
+      <a class="contact-icons-list__item" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="contact-icons-list__item" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="contact-icons-list__item" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </nav>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
