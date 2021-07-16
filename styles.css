@@ -138,7 +138,7 @@ body {
 }
 @media (min-width: 1000px){
   .button {
-    flex: 2;
+    flex: 1;
     transition: background 0.3s ease;
   }
   .button:hover {
